@@ -9,7 +9,7 @@ let stablishments = obj.stablishments.filter((e) =>
   e.productsId.find((p) => product_search.id == p)
 );  
 
-let categorias_count = product_search.categoriesId,map((e, i) => {
+let categorias_count = product_search.categoriesId.map((e, i) => {
   if (e) {
     let f = obj.categories[i].name;
     return {
