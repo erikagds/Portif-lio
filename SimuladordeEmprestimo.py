@@ -17,7 +17,7 @@ print('Valor da Parcela:')
 print( valor / parcelas)
 if valor / parcelas > 0.30 * salario:
     print('Seu emprestimo foi negado :( !')
-if valor / parcelas < 0.30 * salario:
+else:
     print('Parabéns! Seu empréstimo foi pré-aprovado!!')
     
     
